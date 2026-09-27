@@ -4,17 +4,26 @@ public class MenuDrivenAreaCal {
 
 		static double circle(double r) {
 			return 3.14 * r * r; 
+			
 		}
 		
-		static double rectangle(double l, double b) {
+		static double rectangle(double l, double b)
+	    {
+			
 			return l * b;
+		
 		}
-		 static double triangle(double b, double h) {
+	
+		 static double triangle(double b, double h) 
+		{
+			
 			 return 0.5 * b * h;
-		 }
+		
+		}
 		 
 	
-		 public static void main(String[] args) {
+		 public static void main(String[] args) 
+		{
 		
 			 Scanner sc = new Scanner(System.in);
 			 System.out.println("1. Area of Circle ");
@@ -53,9 +62,10 @@ public class MenuDrivenAreaCal {
 			 		
 			 		default:
 			 			System.out.println("Invalid choice");
+			 
 			 }
-			 sc.close();
+			 
+			sc.close();
 
 	}
-
 }
