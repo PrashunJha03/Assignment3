@@ -9,9 +9,12 @@ public class SearchingElement {
 			if(arr[i] == element)
 				return i;
 		return -1;
+		
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the no. of elements :");
 		int n = sc.nextInt();
@@ -28,11 +31,16 @@ public class SearchingElement {
 		if(position != -1) {
 			System.out.println("Element Found.");
 			System.out.println("Position : "+ position);	
+		
 		}
-		else {
+		else 
+		{
+			
 			System.out.println("Element not found.");
+		
 		}
+		
 		sc.close();
+	
 	}
-
 }
